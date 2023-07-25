@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste validar conta</title>
+</head>
+<body>
+    <section class="box">
+        <header>
+            <h1 class="h1">Logar-se</h1>
+        </header>
+        <div class="box2">
+            <label class="label">Email</label><br>
+            <input id="inputemail" minlength="7"  type="email" placeholder="Email"><br>
+            <label class="label">Username</label><br>
+            <input id="inputnome" minlength="3" maxlength="24" max type="text" placeholder="Username"><br>
+            <label class="label">Senha</label><br>
+            <input id="inputsenha" minlength="5" maxlength="24" type="password" placeholder="Password"><br>
+            <button onclick="verificarDados()" class="btn">Logar</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
