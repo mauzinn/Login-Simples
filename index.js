@@ -20,7 +20,7 @@ function verificarDados() {
             contas.map((el, i) => {
                 if (dados == el) {
                     btn.style.padding = '0px'
-                    btn.innerHTML = '<img width="90px" src="img/carregamento.gif">'
+                    btn.innerHTML = '<img width="90px" src="carregamento.gif">'
                     const timelapse = setTimeout(function(){
                         alert('conta certa')
                         btn.style.padding = '13px'
